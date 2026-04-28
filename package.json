@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener",
+  "description": "URL shortener and redirector",
+  "main": "src/server.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "pnpm build && pnpm start"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.7.1",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.19.17",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nanoid": "^5.1.9",
+    "sqlite3": "^5.1.7"
+  }
+}
