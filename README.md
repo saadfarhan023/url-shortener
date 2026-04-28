@@ -21,6 +21,8 @@ git clone https://github.com/saadfrhan/url-shortener.git
 cd url-shortener
 # Install dependencies
 pnpm i
+# Run build
+pnpm build
 # Start the server
 pnpm start
 ```
